@@ -1,4 +1,4 @@
-import sobreMi from '../assets/sobremi.png';
+import sobreMi from '../assets/sobreMi.png';
 import { SOBRE_MI_1, SOBRE_MI_2, SOBRE_MI_3 } from '../constants/index.js';
 import { motion } from 'framer-motion';
 export const About = () => {
