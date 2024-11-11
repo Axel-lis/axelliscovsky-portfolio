@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.NavLink{
+  cursor: pointer;
+  position: relative;
+  text-decoration: none; 
+}
+.NavLink:hover{
+  color: lightgreen;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+}
+.link {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none; 
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: lightgreen;
+  transition: all 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: lightgreen;
+}
+
+.link:hover::after {
+  width: 100%; 
+}
