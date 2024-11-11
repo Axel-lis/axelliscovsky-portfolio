@@ -62,6 +62,7 @@ export const PROJECTS = [
     description:
       'Proyecto de una sola persona, con el objetivo de crear una página web para una empresa de limpieza ecológica. Las necesidades del usuario eran simples: informar sobre los productos ofrecidos a la vez que se educaba sobre cómo usarlos. Debía tener en cuenta que muchos productos usaban un QR impreso para escanear y acceder a la información por lo que utilicé un sistema de botones para recuperar la página antigua.',
     technologies: ['HTML', 'CSS', 'Reactjs', 'Adobe Photoshop', 'Bootstrap'],
+    link: 'https://ecoclean-page.vercel.app/',
   },
   {
     title: 'Tarjeta Pampeana : Página Web Principal',
@@ -69,6 +70,7 @@ export const PROJECTS = [
     description:
       'Fui responsable del frontend y diseño del sitio, el cual se desarrolló a partir de entrevistas con empleados y gerentes para identificar necesidades y funcionalidades clave. Implementé la automatización de la recuperación y actualización de datos desde la base de datos. Utilicé Leaflet para la integración de mapas y participé en la creación de banners con Photoshop. Las tecnologías empleadas fueron las sugeridas por el equipo, lo que implicó el desafío de salir de mi zona de confort habitual con React.',
     technologies: ['HTML', 'CSS', 'jQuery', 'MYSQL', 'PHP', 'Leaflet.js', 'Git', 'Github'],
+    link: 'https://www.tarjetapampeana.com.ar/',
   },
   {
     title: 'Tarjeta Pampeana : Homebanking',
@@ -76,6 +78,7 @@ export const PROJECTS = [
     description:
       'Este proyecto nació de la necesidad de gestionar un número creciente de usuarios y promover la autogestión de servicios. Implementamos un sistema de login cumpliendo con todos los estándares de seguridad vigentes, además de funcionalidades como la solicitud de préstamos con firma digital, visualización de resúmenes, y un catálogo de puntos canjeables. Trabajamos con bases de datos de gran tamaño heredadas de sistemas previos. Fue un proyecto desafiante en el que me desempeñé tanto en el frontend como en el backend.',
     technologies: ['HTML', 'CSS', 'jQuery', 'Bootstrap', 'PHP', 'MYSQL', 'Git', 'Github'],
+    link: 'https://online.pampeana.com.ar/',
   },
   {
     title: 'Proyectos Sector Privado',
@@ -83,6 +86,7 @@ export const PROJECTS = [
     description:
       'He participado en diversos proyectos para el sector privado, asumiendo distintos roles en equipos multidisciplinarios. Mi experiencia abarca tanto el desarrollo frontend (React, TypeScript) como backend (Laravel, Express, Node.js, MySQL).',
     technologies: ['HTML', 'CSS', 'Reactjs', 'Typescript', 'Laravel', 'Express', 'Nodejs', 'mySQL'],
+    link: 'https://github.com/Axel-lis',
   },
 ];
 

@@ -1,5 +1,10 @@
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
+
+function abrirLink(url) {
+  window.open(url, '_blank');
+}
+
 export const Proyectos = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -21,7 +26,14 @@ export const Proyectos = () => {
               transition={{ duration: 0.5 }}
               className="w-full lg:w-1/4 flex justify-center lg:justify-start"
             >
-              <img src={project.image} alt={project.title} height={150} width={250} className="mb-6 rounded " />
+              <img
+                src={project.image}
+                alt={project.title}
+                height={150}
+                width={250}
+                className="mb-6 rounded projectImg"
+                onClick={() => abrirLink(project.link)}
+              />
             </motion.div>
 
             {/* Contenedor de descripción y tecnologías */}
