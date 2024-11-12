@@ -92,6 +92,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: 'Actualmente en La Pampa, Argentina',
-  phoneNo: 'Contáctame a través de mi mail :  ',
+  phoneNo: 'Contáctame a través de mi email :  ',
   email: 'axelliscovsky@outlook.com.ar',
 };
