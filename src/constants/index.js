@@ -90,11 +90,11 @@ export const PROJECTS = [
     link: 'https://github.com/Axel-lis',
   },
    {
-    title: '¿Te gustaría ver cómo trabajo?',
+    title: '¿Te gustaría ver cómo trabajo? 🚀',
     image: project5,
     description:
-      'En este caso este es un proyecto personal, con el objetivo de mostrar mi experiencia profesional. Mi experiencia tanto en el desarrollo frontend (React, Tailwind) como backend ( Express, Node.js, MySQL). Para hacerlo estoy reinterpretando la página de Tarjeta Pampena, pero esta vez usando las tecnologías que más me gustan y conceptos que aprendí con el tiempo para optimizar cargas y UX.',
-    technologies: ['Reactjs', 'Tailwind', 'PHP', 'Express', 'Nodejs', 'mySQL'],
+      'Proyecto personal para demostrar mi experiencia profesional. Estoy reinterpretando la página de Tarjeta Pampeana, aplicando tecnologías modernas como React y Tailwind, y optimizando la experiencia de usuario y las cargas. Este proyecto refleja un poco de mi aprendizaje (continuo) y mi compromiso con seguir aprendiendo, mejorando y progresando como programador.',
+    technologies: ['Reactjs', 'Tailwind', 'Express', 'Nodejs', 'mySQL'],
     link: 'https://tarjetapampeana-react.vercel.app/',
   },
 ];
