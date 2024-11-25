@@ -2,6 +2,7 @@ import project1 from '../assets/projects/project-1.jpg';
 import project2 from '../assets/projects/project-2.jpg';
 import project3 from '../assets/projects/project-3.jpg';
 import project4 from '../assets/projects/project-4.jpg';
+import project5 from '../assets/projects/project-5.jpg';
 
 export const CONTENIDO_PPAL_1 = `Soy desarrollador full stack con título de Técnico Superior en Programación y 3 años de experiencia en tecnologías front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel). Manejo bases de datos relacionales de gran tamaño con MySQL y utilizo herramientas como Git y GitHub para colaborar eficientemente en equipos.`;
 
@@ -87,6 +88,14 @@ export const PROJECTS = [
       'He participado en diversos proyectos para el sector privado, asumiendo distintos roles en equipos multidisciplinarios. Mi experiencia abarca tanto el desarrollo frontend (React, TypeScript) como backend (Laravel, Express, Node.js, MySQL).',
     technologies: ['HTML', 'CSS', 'Reactjs', 'Typescript', 'Laravel', 'Express', 'Nodejs', 'mySQL'],
     link: 'https://github.com/Axel-lis',
+  },
+   {
+    title: '¿Te gustaría ver cómo trabajo?',
+    image: project5,
+    description:
+      'En este caso este es un proyecto personal, con el objetivo de mostrar mi experiencia profesional. Mi experiencia tanto en el desarrollo frontend (React, Tailwind) como backend ( Express, Node.js, MySQL). Para hacerlo estoy reinterpretando la página de Tarjeta Pampena, pero esta vez usando las tecnologías que más me gustan y conceptos que aprendí con el tiempo para optimizar cargas y UX.',
+    technologies: ['Reactjs', 'Tailwind', 'PHP', 'Express', 'Nodejs', 'mySQL'],
+    link: 'https://tarjetapampeana-react.vercel.app/',
   },
 ];
 
