@@ -93,7 +93,7 @@ export const PROJECTS = [
     title: '¿Te gustaría ver cómo trabajo? 🚀',
     image: project5,
     description:
-      'Proyecto personal para demostrar mi experiencia profesional. Estoy reinterpretando la página de Tarjeta Pampeana, aplicando tecnologías modernas como React y Tailwind, y optimizando la experiencia de usuario y las cargas. Este proyecto refleja un poco de mi aprendizaje (continuo) y mi compromiso con seguir aprendiendo, mejorando y progresando como programador.',
+      'Este es un proyecto EndToEnd el cual estoy trabajando y dirigiendo. Se trata de una reinterpretación de la página de Tarjeta Pampeana pero condensando todo lo que fui aprendiendo, optimizando todo el UX,UI, tecnologías más usadas, cargas optimizadas, seguridad optimizada y mucho más. Mientras esté trabajando en el proyecto, mantendré el servidor en Vercel para que puedan ver mi workflow en acción.',
     technologies: ['Reactjs', 'Tailwind', 'Express', 'Nodejs', 'mySQL'],
     link: 'https://tarjetapampeana-react.vercel.app/',
   },

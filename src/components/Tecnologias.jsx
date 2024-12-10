@@ -11,7 +11,7 @@ import { FaPhp, FaLaravel, FaBootstrap } from 'react-icons/fa';
 import { SiMysql, SiMongodb, SiJquery, SiAdobephotoshop } from 'react-icons/si';
 import { BiLogoNodejs } from 'react-icons/bi';
 import { motion } from 'framer-motion';
-
+import { VscVscodeInsiders, VscTerminalCmd } from 'react-icons/vsc';
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
@@ -54,7 +54,7 @@ export const Tecnologias = () => {
           <RiCss3Fill className="text-7xl text-blue-800" />
         </motion.div>
         <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(4)}
           animate="animate"
           initial="initial"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -70,20 +70,12 @@ export const Tecnologias = () => {
           <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(2.1)}
           animate="animate"
           initial="initial"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiJavascriptLine className="text-7xl text-yellow-300" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          animate="animate"
-          initial="initial"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiJquery className="text-7xl text-cyan-200" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
@@ -93,6 +85,15 @@ export const Tecnologias = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          animate="animate"
+          initial="initial"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiJquery className="text-7xl text-cyan-200" />
+        </motion.div>
+
         <motion.div
           variants={iconVariants(3)}
           animate="animate"
@@ -152,6 +153,22 @@ export const Tecnologias = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiAdobephotoshop className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          animate="animate"
+          initial="initial"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <VscVscodeInsiders className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.6)}
+          animate="animate"
+          initial="initial"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <VscTerminalCmd className="text-7xl text-gray-200" />
         </motion.div>
       </motion.div>
     </div>
