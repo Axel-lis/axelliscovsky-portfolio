@@ -4,9 +4,9 @@ import project3 from '../assets/projects/project-3.jpg';
 import project4 from '../assets/projects/project-4.jpg';
 import project5 from '../assets/projects/project-5.jpg';
 
-export const CONTENIDO_PPAL_1 = `Soy desarrollador full stack con título de Técnico Superior en Programación y 3 años de experiencia en tecnologías front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel). Manejo bases de datos relacionales de gran tamaño con MySQL y utilizo herramientas como Git y GitHub para colaborar eficientemente en equipos.`;
+export const CONTENIDO_PPAL_1 = `Soy desarrollador full stack con título de Técnico Superior en Programación y 3 años de experiencia en tecnologías front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel). Manejo bases de datos relacionales de gran tamaño con MySQL y utilizo herramientas como Git y GitHub para trabajar en equipo.`;
 
-export const CONTENIDO_PPAL_2 = `También tengo habilidades en diseño, desde Figma hasta Photoshop, para crear interfaces centradas en el usuario. He tenido el privilegio de aprender de grandes programadores, lo que ha enriquecido mi enfoque profesional. Mi objetivo es desarrollar soluciones innovadoras que impulsen el crecimiento y ofrezcan experiencias excepcionales a los usuarios.`;
+export const CONTENIDO_PPAL_2 = `También tengo habilidades en diseño, desde Figma hasta Photoshop, para crear interfaces centradas en el usuario. He tenido el privilegio de aprender de grandes programadores, lo que ha enriquecido mi enfoque profesional. Mi objetivo es desarrollar soluciones orientadas a resolver objetivos que impulsen el crecimiento y ofrezcan experiencias excepcionales a los usuarios.`;
 
 export const SOBRE_MI_1 = `Soy un desarrollador FullStack con título de Técnico Superior en Programación y 3 años de experiencia profesional en el desarrollo de aplicaciones web centradas en el usuario. He trabajado tanto en front-end (JS, React, Next.js, CSS, Bootstrap, Tailwind) como en back-end (Node.js, PHP, Laravel), manejando bases de datos relacionales y no relacionales como MySQL y MongoDB.`;
 export const SOBRE_MI_2 = `Mi camino en el desarrollo web comenzó por una curiosidad innata para entender cómo funcionan las tecnologías y cómo se utilizan. He tenido la privilegio de aprender de grandes programadores, lo que me llevó a colaborar en proyectos grandes (y, otros tantos, pequeños duración), enriqueciendo mi enfoque y habilidades. Además, tengo experiencia en diseño de interfaces, desde prototipos en Figma hasta la edición visual con Photoshop, lo que me permite aportar una perspectiva completa en cada proyecto.`;
@@ -39,11 +39,11 @@ export const EXPERIENCES = [
     description: `He trabajado de forma autónoma en distintos proyectos, alternando entre los roles de FrontEnd y BackEnd, junto a programadores a quienes admiro. Utilicé tecnologías como Typescript, Laravel, React y Tailwind, enfocándome en el desarrollo de interfaces de usuario y la integración con APIs. Mi objetivo fue optimizar la experiencia del frontend y colaborar en la creación de soluciones innovadoras mientras aprendía nuevas tecnologías.
 `,
     technologies: ['Reactjs', 'Laravel', 'Typescript', 'Tailwind', 'APIs', 'Git', 'Github', 'MYSQL'],
-  },
-  /* {
-    year: '2021 - 2022',
+  },/*
+   {
+    year: '2025 - Presetnte',
     role: 'Full Stack Developer',
-    company: 'Facebook',
+    company: 'Gobierno de La Pampa : Ministerio de Conectividad y Modernización',
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ['Python', 'Svelte', 'Three.js', 'Postgres'],
   },
@@ -66,7 +66,7 @@ export const PROJECTS = [
     link: 'https://ecoclean-page.vercel.app/',
   },
   {
-    title: 'Tarjeta Pampeana : Página Web Principal',
+    title: 'Tarjeta Pampeana : Página Web Principal (Diciembre 2023)',
     image: project2,
     description:
       'Fui responsable del frontend y diseño del sitio, el cual se desarrolló a partir de entrevistas con empleados y gerentes para identificar necesidades y funcionalidades clave. Implementé la automatización de la recuperación y actualización de datos desde la base de datos. Utilicé Leaflet para la integración de mapas y participé en la creación de banners con Photoshop. Las tecnologías empleadas fueron las sugeridas por el equipo, lo que implicó el desafío de salir de mi zona de confort habitual con React.',
@@ -90,12 +90,12 @@ export const PROJECTS = [
     link: 'https://github.com/Axel-lis',
   },
    {
-    title: '¿Te gustaría ver cómo trabajo? 🚀',
+    title: 'Tarjeta Pampeana 2.0 (Marzo 2025)',
     image: project5,
     description:
-      'Este es un proyecto EndToEnd el cual estoy trabajando y dirigiendo. Se trata de una reinterpretación de la página de Tarjeta Pampeana pero condensando todo lo que fui aprendiendo, optimizando todo el UX,UI, tecnologías más usadas, cargas optimizadas, seguridad optimizada y mucho más. Mientras esté trabajando en el proyecto, mantendré el servidor en Vercel para que puedan ver mi workflow en acción.',
+      'Este es un proyecto EndToEnd el cual pude dirigir y desarrollar enteramente por mi cuenta. Se trata de una reinterpretación de la página de Tarjeta Pampeana que había desarrollado al entrar en la empresa condensando todo lo que fui aprendiendo, optimizando todo el UX,UI, tecnologías más usadas, cargas optimizadas, seguridad optimizada, debounce y rate-limiting tanto para reducir peticiones al servidor como para controlar y disminuir los tiempos de carga.',
     technologies: ['Reactjs', 'Tailwind', 'Express', 'Nodejs', 'mySQL'],
-    link: 'https://tarjetapampeana-react.vercel.app/',
+    link: 'https://www.tarjetapampeana.com.ar/',
   },
 ];
 
