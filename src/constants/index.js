@@ -4,13 +4,13 @@ import project3 from '../assets/projects/project-3.jpg';
 import project4 from '../assets/projects/project-4.jpg';
 import project5 from '../assets/projects/project-5.jpg';
 
-export const CONTENIDO_PPAL_1 = `Soy desarrollador full stack con título de Técnico Superior en Programación y 3 años de experiencia en tecnologías front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel). Manejo bases de datos relacionales de gran tamaño con MySQL y utilizo herramientas como Git y GitHub para trabajar en equipo.`;
+export const CONTENIDO_PPAL_1 = `Desarrollador Full Stack con título de Técnico Superior en Programación y más de 5 años de experiencia en el rubro. Domino tecnologías modernas de front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel), con un fuerte enfoque en la creación de aplicaciones eficientes y escalables. Tengo experiencia en el manejo de bases de datos relacionales complejas con MySQL y utilizo herramientas como Git y GitHub para asegurar una colaboración fluida en equipos de desarrollo.`;
 
-export const CONTENIDO_PPAL_2 = `También tengo habilidades en diseño, desde Figma hasta Photoshop, para crear interfaces centradas en el usuario. He tenido el privilegio de aprender de grandes programadores, lo que ha enriquecido mi enfoque profesional. Mi objetivo es desarrollar soluciones orientadas a resolver objetivos que impulsen el crecimiento y ofrezcan experiencias excepcionales a los usuarios.`;
+export const CONTENIDO_PPAL_2 = `Además, cuento con habilidades en diseño UI/UX, trabajando desde la creación de prototipos en Figma hasta la edición visual en Photoshop. Haber aprendido de desarrolladores con gran experiencia ha fortalecido mi visión profesional. Mi objetivo es desarrollar soluciones orientadas a resultados, que generen impacto positivo y brinden experiencias memorables a los usuarios.`;
 
-export const SOBRE_MI_1 = `Soy un desarrollador FullStack con título de Técnico Superior en Programación y 3 años de experiencia profesional en el desarrollo de aplicaciones web centradas en el usuario. He trabajado tanto en front-end (JS, React, Next.js, CSS, Bootstrap, Tailwind) como en back-end (Node.js, PHP, Laravel), manejando bases de datos relacionales y no relacionales como MySQL y MongoDB.`;
-export const SOBRE_MI_2 = `Mi camino en el desarrollo web comenzó por una curiosidad innata para entender cómo funcionan las tecnologías y cómo se utilizan. He tenido la privilegio de aprender de grandes programadores, lo que me llevó a colaborar en proyectos grandes (y, otros tantos, pequeños duración), enriqueciendo mi enfoque y habilidades. Además, tengo experiencia en diseño de interfaces, desde prototipos en Figma hasta la edición visual con Photoshop, lo que me permite aportar una perspectiva completa en cada proyecto.`;
-export const SOBRE_MI_3 = `Me entusiasma y encuentro una genuina felicidad en el desarrollo de soluciones que impacten positivamente en la experiencia del usuario o que resuelvan un problema. También me desenvuelvo bien en entornos colaborativos y disfruto mucho de poder aprender de mis pares. Utilizo herramientas como Git y GitHub para lograr un flujo de trabajo eficiente en equipo. Fuera del código, disfruto manteniéndome activo, explorando nuevas tecnologías y participando en proyectos paralelos para seguir aprendiendo y creciendo como programador.`;
+export const SOBRE_MI_1 = `SSoy desarrollador Full Stack, con título de Técnico Superior en Programación y más de 3 años de experiencia en la creación de aplicaciones web centradas en el usuario. He trabajado tanto en el front-end (JavaScript, React, Next.js, CSS, Bootstrap, Tailwind) como en el back-end (Node.js, PHP, Laravel), gestionando bases de datos relacionales y no relacionales como MySQL y MongoDB.`;
+export const SOBRE_MI_2 = `Mi camino en el desarrollo web comenzó con una curiosidad innata por entender cómo funcionan las tecnologías y cómo se aplican en el mundo real. He tenido el privilegio de aprender de desarrolladores experimentados, lo que me permitió colaborar en proyectos de distintas escalas, enriqueciendo mi perspectiva y habilidades. Además, poseo experiencia en diseño de interfaces, desde la creación de prototipos en Figma hasta ajustes visuales con Photoshop, lo que me permite aportar una visión integral en cada proyecto.`;
+export const SOBRE_MI_3 = `Encuentro una felicidad genuina en desarrollar soluciones que mejoran la experiencia del usuario o resuelven problemas reales. Me desenvuelvo con soltura en entornos colaborativos y disfruto aprendiendo de mis pares. Para lograr flujos de trabajo eficientes, utilizo herramientas como Git y GitHub. Fuera del código, me mantengo activo explorando nuevas tecnologías y participando en proyectos paralelos que me permiten seguir creciendo como profesional.`;
 
 export const EXPERIENCES = [
   {
@@ -39,14 +39,15 @@ export const EXPERIENCES = [
     description: `He trabajado de forma autónoma en distintos proyectos, alternando entre los roles de FrontEnd y BackEnd, junto a programadores a quienes admiro. Utilicé tecnologías como Typescript, Laravel, React y Tailwind, enfocándome en el desarrollo de interfaces de usuario y la integración con APIs. Mi objetivo fue optimizar la experiencia del frontend y colaborar en la creación de soluciones innovadoras mientras aprendía nuevas tecnologías.
 `,
     technologies: ['Reactjs', 'Laravel', 'Typescript', 'Tailwind', 'APIs', 'Git', 'Github', 'MYSQL'],
-  },/*
-   {
-    year: '2025 - Presetnte',
-    role: 'Full Stack Developer',
-    company: 'Gobierno de La Pampa : Ministerio de Conectividad y Modernización',
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ['Python', 'Svelte', 'Three.js', 'Postgres'],
   },
+{
+  year: '2025 - Presente',
+  role: 'Full Stack Developer',
+  company: 'Gobierno de La Pampa : Ministerio de Conectividad y Modernización',
+  description: `Encargado del desarrollo y mantenimiento de aplicaciones web destinadas a modernizar y digitalizar procesos internos del gobierno provincial. Trabajé en la implementación de sistemas para la gestión de declaraciones juradas, control de stock y automatización de reportes. Integro distintos equipos de trabajo para garantizar la escalabilidad, seguridad y accesibilidad de los sistemas.`,
+  technologies: ['Laravel', 'ReactJS', 'SQL', 'Docker', 'Livewire', 'Jetstream', 'Swagger', 'Git', 'TailwindCSS'],
+},
+/*
   {
     year: '2020 - 2021',
     role: 'Software Engineer',

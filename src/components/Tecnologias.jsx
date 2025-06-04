@@ -9,9 +9,10 @@ import {
 } from 'react-icons/ri';
 import { FaPhp, FaLaravel, FaBootstrap } from 'react-icons/fa';
 import { SiMysql, SiMongodb, SiJquery, SiAdobephotoshop } from 'react-icons/si';
-import { BiLogoNodejs } from 'react-icons/bi';
+import { BiLogoNodejs, BiLogoDocker } from 'react-icons/bi';
 import { motion } from 'framer-motion';
 import { VscVscodeInsiders, VscTerminalCmd } from 'react-icons/vsc';
+import { SiSwagger } from "react-icons/si";
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
@@ -169,6 +170,21 @@ export const Tecnologias = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <VscTerminalCmd className="text-7xl text-gray-200" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.6)}
+          animate="animate"
+          initial="initial"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+               <BiLogoDocker  className="text-7xl text-blue-400" />
+        </motion.div>
+         <motion.div
+          variants={iconVariants(2.5)}
+          animate="animate"
+          initial="initial"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        ><SiSwagger className="text-7xl text-green-400"/> 
         </motion.div>
       </motion.div>
     </div>
