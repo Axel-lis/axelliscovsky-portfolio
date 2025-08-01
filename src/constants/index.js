@@ -3,16 +3,18 @@ import project2 from '../assets/projects/project-2.jpg';
 import project3 from '../assets/projects/project-3.jpg';
 import project4 from '../assets/projects/project-4.jpg';
 import project5 from '../assets/projects/project-5.jpg';
+import project6 from '../assets/projects/project-6.jpg';
 
-export const CONTENIDO_PPAL_1 = `Desarrollador Full Stack con título de Técnico Superior en Programación y más de 5 años de experiencia en el rubro. Domino tecnologías modernas de front-end (React, Next.js, CSS, Bootstrap, Tailwind) y back-end (Node.js, PHP, Laravel), con un fuerte enfoque en la creación de aplicaciones eficientes y escalables. Tengo experiencia en el manejo de bases de datos relacionales complejas con MySQL y utilizo herramientas como Git y GitHub para asegurar una colaboración fluida en equipos de desarrollo.`;
+export const CONTENIDO_PPAL_1 = `Soy Desarrollador Full Stack y Técnico Superior en Programación, con más de 5 años de experiencia creando soluciones web escalables, eficientes y centradas en el usuario. Trabajo con tecnologías modernas como React, Next.js, Node.js, Laravel y PHP, combinando front-end atractivo con back-end robusto. Manejo bases de datos complejas en MySQL y colaboro en equipos usando Git y GitHub.`;
 
-export const CONTENIDO_PPAL_2 = `Además, cuento con habilidades en diseño UI/UX, trabajando desde la creación de prototipos en Figma hasta la edición visual en Photoshop. Haber aprendido de desarrolladores con gran experiencia ha fortalecido mi visión profesional. Mi objetivo es desarrollar soluciones orientadas a resultados, que generen impacto positivo y brinden experiencias memorables a los usuarios.`;
+export const CONTENIDO_PPAL_2 = `También tengo experiencia en diseño UI/UX, desde wireframes en Figma hasta edición visual en Photoshop. Haber trabajado junto a desarrolladores con gran trayectoria fortaleció mi enfoque profesional. Apunto a construir productos que generen impacto real y experiencias memorables para los usuarios.`;
 
-export const SOBRE_MI_1 = `Soy desarrollador Full Stack con más de 4 años de experiencia y título de Técnico Superior en Programación. Me especializo en crear aplicaciones web centradas en el usuario, tanto en el front-end (JavaScript, React, Next.js, CSS, Tailwind, Bootstrap) como en el back-end (Node.js, PHP, Laravel), trabajando con bases de datos relacionales y no relacionales como MySQL y MongoDB.`;
+export const SOBRE_MI_1 = `Soy desarrollador Full Stack con más de 4 años de experiencia y formación como Técnico Superior en Programación. Me especializo en construir aplicaciones web sólidas, tanto del lado del cliente (JavaScript, React, Next.js, Tailwind, Bootstrap) como del servidor (Node.js, PHP, Laravel), con bases de datos MySQL y MongoDB.`;
 
-export const SOBRE_MI_2 = `Mi trayectoria comenzó con una fuerte curiosidad por la tecnología y su impacto en el mundo real. He trabajado en proyectos de distintas escalas, lo que fortaleció mis habilidades técnicas y de colaboración. También tengo experiencia en diseño de interfaces, desde la creación de prototipos en Figma hasta ajustes visuales con Photoshop.`;
+export const SOBRE_MI_2 = `Mi camino en la programación empezó con una fuerte curiosidad por cómo la tecnología transforma el mundo. Participé en proyectos de diversas escalas, lo que consolidó mis habilidades técnicas y mi capacidad para trabajar en equipo. También cuento con experiencia en diseño de interfaces, desde la concepción en Figma hasta la ejecución en Photoshop.`;
 
-export const SOBRE_MI_3 = `Disfruto crear soluciones que mejoran la experiencia del usuario y resuelven problemas reales. Me desenvuelvo bien en equipos de trabajo y utilizo herramientas como Git y GitHub para mantener flujos de trabajo eficientes. Fuera del código, sigo explorando nuevas tecnologías y participando en proyectos que me desafían a seguir creciendo.`;
+export const SOBRE_MI_3 = `Disfruto crear soluciones simples y efectivas que aporten valor real. Me adapto con facilidad a distintos entornos de trabajo, y utilizo herramientas como Git y GitHub para mantener flujos de desarrollo ordenados. Fuera del código, me motiva seguir aprendiendo y asumir nuevos desafíos tecnológicos.`;
+
 
 export const EXPERIENCES = [
   {
@@ -61,7 +63,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'Ecoclean : Página Web Principal',
+    title: 'Ecoclean : Página Web Principal (Junio 2023)',
     image: project1,
     description:
       'Proyecto de una sola persona, con el objetivo de crear una página web para una empresa de limpieza ecológica. Las necesidades del usuario eran simples: informar sobre los productos ofrecidos a la vez que se educaba sobre cómo usarlos. Debía tener en cuenta que muchos productos usaban un QR impreso para escanear y acceder a la información por lo que utilicé un sistema de botones para recuperar la página antigua.',
@@ -77,7 +79,7 @@ export const PROJECTS = [
     link: 'https://www.tarjetapampeana.com.ar/',
   },
   {
-    title: 'Tarjeta Pampeana : Homebanking',
+    title: 'Tarjeta Pampeana : Homebanking (Diciembre 2023)',
     image: project3,
     description:
       'Este proyecto nació de la necesidad de gestionar un número creciente de usuarios y promover la autogestión de servicios. Implementamos un sistema de login cumpliendo con todos los estándares de seguridad vigentes, además de funcionalidades como la solicitud de préstamos con firma digital, visualización de resúmenes, y un catálogo de puntos canjeables. Trabajamos con bases de datos de gran tamaño heredadas de sistemas previos. Fue un proyecto desafiante en el que me desempeñé tanto en el frontend como en el backend.',
@@ -99,6 +101,14 @@ export const PROJECTS = [
       'Este es un proyecto EndToEnd el cual pude dirigir y desarrollar enteramente por mi cuenta. Se trata de una reinterpretación de la página de Tarjeta Pampeana que había desarrollado al entrar en la empresa condensando todo lo que fui aprendiendo, optimizando todo el UX,UI, tecnologías más usadas, cargas optimizadas, seguridad optimizada, debounce y rate-limiting tanto para reducir peticiones al servidor como para controlar y disminuir los tiempos de carga.',
     technologies: ['Reactjs', 'Tailwind', 'Express', 'Nodejs', 'mySQL'],
     link: 'https://www.tarjetapampeana.com.ar/',
+  },
+   {
+    title: 'Pagá Tu Resumen (Julio 2025)',
+    image: project6,
+    description:
+      'Este es un proyecto que me fue encargado a fin de poder integrar una pasarella de pagos de resumenes para Tarjeta Pampeana. Usamos una integración con QR Fiserv e intregramos la plataforma de SDK de MercadoPago (CheckoutPro). El desafío estuvo puesto en la dirección del proyecto completo (armé diseño, frontend, backend, intregración con MP, y despliegue a producción + homologación y entregué una app corriendo al 100% lista).',
+    technologies: ['Reactjs', 'Tailwind', 'Express', 'Nodejs', 'mySQL','MercadoPago SDK', 'FiservQR'],
+    link: 'https://pagaturesumen.pampeana.com.ar/',
   },
 ];
 
