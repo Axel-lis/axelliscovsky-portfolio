@@ -87,7 +87,7 @@ export const PROJECTS = [
     link: 'https://online.pampeana.com.ar/',
   },
   {
-    title: 'Proyectos Sector Privado',
+    title: 'Proyectos Sector Privado (2023 - actualidad )',
     image: project4,
     description:
       'He participado en diversos proyectos para el sector privado, asumiendo distintos roles en equipos multidisciplinarios. Mi experiencia abarca tanto el desarrollo frontend (React, TypeScript) como backend (Laravel, Express, Node.js, MySQL).',
